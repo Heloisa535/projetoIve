@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11px;
+      
+      
+}
+header{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    align-items: center;
+}
+header h6{
+
+    text-align: center;
+    color: white;
+   
+   
+}
+
+
+.menu h1{
+  display: inline-block;
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 30px;
+  margin-right: 300px;
+}
+
+.menu h5{
+  display: inline-block;
+    margin-right: 60px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin: 16px; 
+}
+
+/* style.css */
+:root {
+  --font-family: "Nanum Gothic", sans-serif;
+  --font-size: 11px;
+  --header-height: 50px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+}
+
+header {
+  width: 100%;
+  height: var(--header-height);
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.menu h1 {
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-right: 30px;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 60px;
+}
+
+.menu a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.search-bar input[type="text"] {
+  background-color: #e6e6e6;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  height: 30px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #e6e6e6;
+  color: #c1c1c1;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  outline: none;
+  height: 30px;
+}
+
+.search-bar button img {
+  height: 20px;
+  
+}
+
+.search-bar button:hover {
+  background-color: #ccc;
+}
+
+#carrinho{
+  background-color: #ffffff;
+margin-bottom: 10px;
+object-fit: cover;
+ 
+  
+}
+
+#lupa img{
+  margin-bottom: 50px;
+}
+
+hr{
+  background-color: #ccc;
+}
+.menu nav{
+  height: 50px;
+}
+header h1{
+  margin-top: 40px;
+}
+.sidebar {
+  width: 250px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  height: 100vh;
+  position: fixed;
+  overflow-y: auto;
+}
+
+.sidebar h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.sidebar h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1em;
+}
+
+.sidebar ul li a:hover {
+  color: #007bff;
+}
+
+.sidebar-image {
+  text-align: center;
+  margin-left: 100px;
+  width: 100%;
+  padding: 20px;
+}
+
+.sidebar-image img {
+  max-width: 100%;
+  height: auto;
+}
